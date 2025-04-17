@@ -1,48 +1,57 @@
-# Cancer Navigation Support System
+<h1>Cancer Navigation Support System</h1>
 
+<p>
 A role-based web platform designed to help underserved cancer patients access social needs services like transport, housing, and financial aid. Built using Laravel, the system supports Admins, Navigators, and Patients with secure access and tailored functionalities.
+</p>
 
-## 🚀 Features (Overview)
-- Patient-to-Navigator and Navigator-to-Admin request flows
-- Dashboard summaries with charts and alerts
-- Financial aid filtering based on eligibility
-- Simulated API integration for services
-- Broadcast system for alerts and messages
-- Secure file and image handling with access control
-- Role-based access for Admins, Navigators, and Patients
+<h2>🚀 Features (Overview)</h2>
+<ul>
+  <li>Patient-to-Navigator and Navigator-to-Admin request flows</li>
+  <li>Dashboard summaries with charts and alerts</li>
+  <li>Financial aid filtering based on eligibility</li>
+  <li>Simulated API integration for services</li>
+  <li>Broadcast system for alerts and messages</li>
+  <li>Secure file and image handling with access control</li>
+  <li>Role-based access for Admins, Navigators, and Patients</li>
+</ul>
 
----
+<hr>
 
-## ⚙️ Installation & Setup
+<h2>⚙️ Installation & Setup</h2>
+<p>Follow the steps below to run the project locally:</p>
 
-Follow the steps below to run the project locally:
+<h3>1. <strong>Clone the Repository</strong></h3>
+<pre><code>git clone https://github.com/your-username/cancer-navigation-system.git
+cd cancer-navigation-system
+</code></pre>
 
-### 1. **Clone the Repository**
+<h3>2. <strong>Install Dependencies</strong></h3>
+<p>Make sure you have PHP >= 8.1, Composer, MySQL, and Node.js installed.</p>
 
+<p><strong>Install backend PHP packages:</strong></p>
+<pre><code>composer install</code></pre>
 
-### 2. **Install Dependencies**
-Make sure you have PHP >= 8.1, Composer, MySQL, and Node.js installed.
+<h3>3. <strong>Environment Setup</strong></h3>
+<pre><code>cp .env.example .env</code></pre>
 
-**Install backend PHP packages:**
-RUN in CMD: composer install
-
-### 3. **Environment Setup**
-cp .env.example .env
-
-Update the .env file with your database credentials:
-DB_DATABASE=your_database
+<p>Update the <code>.env</code> file with your database credentials:</p>
+<pre><code>DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
+</code></pre>
 
-### **4. Run Migrations and Seeders**
-php artisan migrate --seed
+<h3>4. <strong>Run Migrations and Seeders</strong></h3>
+<pre><code>php artisan migrate --seed</code></pre>
 
+<h3>5. <strong>Storage Linking (for file access)</strong></h3>
+<pre><code>php artisan storage:link</code></pre>
 
-### **5. Storage Linking (for file access)**
-php artisan storage:link
+<h3>6. <strong>Start the Server</strong></h3>
+<pre><code>php artisan serve</code></pre>
 
+<p>Visit <a href="http://localhost:8000" target="_blank">http://localhost:8000</a> in your browser.</p>
 
-### **6. Start the Server**
-php artisan serve
-Visit http://localhost:8000 in your browser.
-Default admin id/password: admin@gmail.com pwd: admin@123
+<h4><strong>Default Admin Login</strong></h4>
+<pre><code>Email: admin@gmail.com
+Password: admin@123
+</code></pre>
