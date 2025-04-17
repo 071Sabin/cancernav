@@ -21,8 +21,8 @@ A role-based web platform designed to help underserved cancer patients access so
 <p>Follow the steps below to run the project locally:</p>
 
 <h3>1. <strong>Clone the Repository</strong></h3>
-<pre><code>git clone https://github.com/your-username/cancer-navigation-system.git
-cd cancer-navigation-system
+<pre><code>git clone https://github.com/071Sabin/cancernav.git
+cd cancernav
 </code></pre>
 
 <h3>2. <strong>Install Dependencies</strong></h3>
