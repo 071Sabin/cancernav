@@ -1,7 +1,7 @@
 <h1>Cancer Navigation Support System</h1>
 
 <p>
-A role-based web platform designed to help underserved cancer patients access social needs services like transport, housing, and financial aid. Built using Laravel, the system supports Admins, Navigators, and Patients with secure access and tailored functionalities.
+A role-based web platform designed to help patients access social needs services like transport, housing, and financial aid. Built using Laravel, the system supports Admins, Navigators, and Patients with secure access and tailored functionalities.
 </p>
 
 <h2>🚀 Features (Overview)</h2>
